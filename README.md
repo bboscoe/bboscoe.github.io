@@ -1,5 +1,5 @@
 # Bernie Boscoe
-### (A GitHub CV, if you will)
+##### (A GitHub CV, if you will)
 
 ## Education
 * 2015-present Phd student in Information Studies, UCLA
