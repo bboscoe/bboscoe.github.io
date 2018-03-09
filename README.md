@@ -1,5 +1,6 @@
 # Bernie Boscoe
 ##### (A GitHub CV, if you will)
+##### AKA Bernadette Boscoe, Bernadette Randles
 
 ## Education
 * 2015-present  PhD student in **Information Studies**, UCLA
