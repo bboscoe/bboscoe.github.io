@@ -1,2 +1,4 @@
-# bboscoe.github.io
-About me page
+# Bernie Boscoe
+A GitHub CV, if you will
+
+
