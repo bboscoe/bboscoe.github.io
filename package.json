@@ -1,8 +1,11 @@
 {
+  "name": "bernie-boscoe-academic-site",
+  "version": "1.0.0",
+  "description": "Simple academic website",
+  "main": "index.html",
   "scripts": {
-    "watch:scss": "node-sass --w assets/sass/main.scss assets/css/main.css"
   },
-  "dependencies": {
-    "node-sass": "^9.0.0"
-  }
+  "keywords": ["academic", "website"],
+  "author": "Bernie Boscoe",
+  "license": "MIT"
 }

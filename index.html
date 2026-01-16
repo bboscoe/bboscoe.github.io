@@ -1,218 +1,166 @@
-<!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144249351-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bernie Boscoe - Computer Scientist</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144249351-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-144249351-1');
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-top">
+                <img src="images/img_3337.jpeg" alt="Bernie Boscoe" class="avatar">
+                <div class="header-text">
+                    <h1>Bernie Boscoe</h1>
+                    <p class="subtitle">Assistant Professor, Computer Science<br>Southern Oregon University</p>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#talks">Talks & Posters</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-			gtag('config', 'UA-144249351-1');
-		</script>
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About</h2>
+                <p>I am an Assistant Professor of 
+					computer science at Southern Oregon University in Ashland, Oregon. 
+					I collaborate with domain scientists investigating our world, 
+					building pipelines to do better science. 
+					Current projects include AquiLLM, a 
+					RAG-LLM to study tacit knowledge in research groups, 
+					funded by the Sloan Foundation and the NSF. 
+					AquiLLM case studies include astronomy, 
+					environmental science, and computational acoustics. 
+					Related work includes <a href="https://wildlabs.net/article/announcing-wildlabs-awards-2024-awardees">GreenCrossingAI</a> with environmental scientist Dr. Karen Mager here at SOU
+					, and <a href="https://datalab.astro.ucla.edu/">the Astrophysics Data Lab at UCLA</a> with astrophysicist Dr. Tuan Do.</p>
+            </div>
+        </section>
 
-		<title>Bernie Boscoe</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+        <!-- Projects Section (News commented out) -->
+        <!--
+        <section id="news">
+            <div class="container">
+                <h2>News</h2>
+                <ul class="news-list">
+                    <li><strong>12/2025:</strong> Presented AquiLLM at <a href="https://us-rse.org/usrse25/">US-RSE 2025</a></li>
+                    <li><strong>01/2025:</strong> <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2448094&HistoricalAwards=false">NSF CRII</a></li>
+                    <li><strong>10/2024:</strong> <a href="https://news.sou.edu/2024/10/sou-computer-scientist-receives-sloan-grant-for-tacit-knowledge-research/">SOU News</a> - Sloan Foundation award</li>
+                    <li><strong>10/2024:</strong> SOU CS graduate Chandler Campbell and I are presenting at <a href="https://sciencegateways.org/gateways2024">SGX3 Gateways 2024</a> in Bozeman, Montana</li>
+                    <li><strong>09/2024:</strong> <a href="https://ragworkshop2024.github.io/">The RAG-AI Workshop was a success!</a> Thank you ACCESS-CI and CU Boulder</li>
+                    <li><strong>04/2024:</strong> <a href="https://sou.edu/academics/sou-students-support-wildlife-project-on-i-5/">The Butterfly Effect at the Mariposa Preserve</a> - SOU Students Support a Wildlife Project on I-5</li>
+                    <li><strong>03/2024:</strong> Wildlabs/Arm grant recipients announced - <a href="https://wildlabs.net/article/announcing-wildlabs-awards-2024-awardees">We are excited!</a></li>
+                    <li><strong>03/2024:</strong> <a href="https://www.amycheatle.net/">Amy Cheatle</a> and I have been accepted <a href="https://www.easst4s2024.net/programme/#14157.82929">to present at Easst4S in Amsterdam in July</a></li>
+                    <li><strong>04/2024:</strong> Representing <a href="https://sciencegateways.org/SGX3">SGX3</a> in Atlanta at the <a href="https://www.admiusa.org/admi2024/index.php">Association of Computer Science Departments at Minority Institutions (ADMI 2024)</a></li>
+                </ul>
+            </div>
+        </section>
+        -->
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <ul class="projects-list">
+                    <li><a href="https://aquillm.org" target="_blank" rel="noopener">AquiLLM</a></li>
+                    <li><a href="https://greencrossings.ai" target="_blank" rel="noopener">GreenCrossings</a></li>
+                </ul>
+            </div>
+        </section>
 
-		<!-- Header -->
-		<section id="header">
-			<header>
-				<span class="image avatar"><img src="images/avatar2.jpg" alt="" /></span>
-				<h1 id="logo"><a href="#">Bernie Boscoe</a></h1>
-				<p>Assistant Professor, Computer Science<br />
-				Southern Oregon University</p>
-			</header>
-			<nav id="nav">
-				<ul>
-					<li><a href="#one" class="active">About</a></li>
-					<li><a href="#two">News</a></li>
-					<li><a href="#three">Publications</a></li>
-					<li><a href="#four">Talks/Posters</a></li>
-					<li><a href="#five">Contact</a></li>
-				</ul>
-			</nav>
-			<footer>
-				<ul class="icons">
-					<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
-					<li><a href="https://github.com/bboscoe" class="icon brands fa-github"><span class="label">Github</span></a></li>
-					<!-- BEGIN: ed8c6549bwf9 -->
-					<li><a href="mailto:boscoeb@sou.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					<!-- END: ed8c6549bwf9 -->
-				</ul>
-			</footer>
-		</section>
+        <!-- Publications Section -->
+        <section id="publications">
+            <div class="container">
+                <h2>Selected Publications</h2>
+                <div class="publications-list">
+                    <article class="publication">
+                        <img src="images/diffmodels.jpeg" alt="Galaxy structure diffusion models" class="pub-image">
+                        <div class="publication-body">
+                            <h3>Learning the Evolution of Physical Structure of Galaxies via Diffusion Models</h3>
+                            <p><em>NeurIPS 2024</em><br>
+                            <a href="https://arxiv.org/abs/2411.18440">https://arxiv.org/abs/2411.18440</a></p>
+                        </div>
+                    </article>
 
-		<!-- Wrapper -->
-		<div id="wrapper">
+                    <article class="publication">
+                        <img src="images/jones_pred.png" alt="Photometric redshift predictions" class="pub-image">
+                        <div class="publication-body">
+                            <h3>Photometric Redshifts for Cosmology: Improving Accuracy and Uncertainty Estimates Using Bayesian Neural Networks</h3>
+                            <p>Evan Jones, Tuan Do, Bernie Boscoe, Jack Singal, Yujie Wan, Zooey Nguyen.<br>
+                            <em>The Astrophysical Journal</em>, vol. 964, no. 2, IOP, 2024. doi:10.3847/1538-4357/ad2070.<br>
+                            <a href="https://arxiv.org/abs/2306.13179">arXiv:2306.13179 [astro-ph.CO]</a></p>
+                        </div>
+                    </article>
 
-			<!-- Main -->
-			<div id="main">
+                    <article class="publication">
+                        <img src="images/USRSE.png" alt="US-RSE conference presentation" class="pub-image">
+                        <div class="publication-body">
+                            <h3>Navigating the Integration of Machine Learning into Domain Research</h3>
+                            <p>Bernie Boscoe, Tuan Do.<br>
+                            <em>US-RSE Conference, 2023</em><br>
+                            <a href="https://doi.org/10.5281/zenodo.10420442">[Zenodo]</a></p>
+                        </div>
+                    </article>
 
-				<!-- One -->
-				<section id="one">
-					<div class="image main" data-position="center">
-						<img src="images/banner2.jpg" alt="" />
-					</div>
-					<div class="container">
-						<header class="major">
-							<h3>About</h3>
-						</header>
-						<p>I am an Assistant Professor of computer science at Southern Oregon University in Ashland, Oregon. I collaborate
-							with domain scientists investigating our world, using AI+machine learning techniques. Current projects include Aquillm, 
-							a RAG-AI to study tacit knowledge in research groups, funded by the Sloan Foundation and the NSF. 
-							Aquillm case studies include astronomy, environmental science, and computational acoustics.
-							 Related work includes <a href="https://wildlabs.net/article/announcing-wildlabs-awards-2024-awardees">GreenCrossingAI</a> 
-							 with environmental scientist Dr. Karen Mager, and <a href="https://datalab.astro.ucla.edu/">the Astrophysics Data Lab at UCLA</a>, with astrophysicist Dr. Tuan Do. </li>
-						</p>
-						
-					</div>
-				</section>
+                    <article class="publication">
+                        <img src="images/telescope_pipeline.png" alt="Astronomy data pipeline" class="pub-image">
+                        <div class="publication-body">
+                            <h3>Elements of effective machine learning datasets in astronomy</h3>
+                            <p>Bernie Boscoe, Tuan Do, EvSelectedes, Billy Li, Kevin Alfaro and Chris Ma.<br>
+                            <em>NeurIPS Machine Learning for the Physical Sciences Workshop, 2022</em><br>
+                            arXiv:2211.14401 [astro-ph.IM]</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-				<!-- Two -->
-				<section id="two">
-					<div class="container">
-						<h3>News</h3>
-						<!-- Add your news content here -->
-						
-						<ul class="feature-icons">
-							<li class="icon solid fa-bolt">01/2025: <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2448094&HistoricalAwards=false">NSF CRII</a></li>
-							<li class = "icon solid fa-bolt">10/2024: <a href="https://news.sou.edu/2024/10/sou-computer-scientist-receives-sloan-grant-for-tacit-knowledge-research/">SOU News:</a> I have received a Sloan Foundation award.</li>
-							<li class="icon solid fa-cubes">10/2024: SOU CS graduate Chandler Campbell and I are presenting at <a
-									href="https://sciencegateways.org/gateways2024">SGX3 Gateways 2024</a>
-								in Bozeman, Montana</li>
-							<li class="icon solid fa-bolt">09/2024: <a href="https://ragworkshop2024.github.io/">The RAG-AI Workshop was a success! Thank you ACCESS-CI and CU Boulder.</a></li>
-							<li class="icon solid fa-bolt">04/2024: <a href="https://sou.edu/academics/sou-students-support-wildlife-project-on-i-5/">The Butterfly Effect at the Mariposa Preserve: SOU Students Support a Wildlife Project on I-5</a></li>
-							<li class="icon solid fa-bolt">03/26/24: Wildlabs/Arm grant recipients have been announced <a href="https://wildlabs.net/article/announcing-wildlabs-awards-2024-awardees">at Wildlabs--</a> 
-							We are excited!</li>
-							<li class="icon solid fa-coffee">03/2024: <a href="https://www.amycheatle.net/">Amy Cheatle</a> and I have been accepted <a href="https://www.easst4s2024.net/programme/#14157.82929" >to present at Easst4S in Amsterdam in July.</a> </li>
-							<li class="icon solid fa-code">04/04/2024: I'll be representing <a href="https://sciencegateways.org/SGX3">SGX3</a> in Atlanta
-							 at the
-								Association of Computer Science Departments at Minority Institutions <a
-									href="https://www.admiusa.org/admi2024/index.php">(ADMI 2024)</a>
-							</li>
-							<!--<li class="icon solid fa-cubes">
-							</li>
-							<li class="icon solid fa-book">Read books and stuff</li>
-													<li class="icon solid fa-coffee">Drink much coffee</li>
-													<li class="icon solid fa-bolt">Lightning bolt</li>
-													<li class="icon solid fa-users">Shadow clone technique</li>  -->
-						</ul>
-					</div>
-				</section>
+        <!-- Talks & Posters Section -->
+        <section id="talks">
+            <div class="container">
+                <h2>Selected Talks & Posters</h2>
+                <ul class="talks-list">
+                    <li>A Retrieval Augmented Generation Tool for Research Groups. Chandler Campbell, Bernie Boscoe, Tuan Do. <em>Gateways 2024</em>, Bozeman, Montana</li>
+                    <li>Arrays from the sky: Astronomy and Data Science. <em>Willamette University</em>, Salem, Oregon, 2023</li>
+                    <li>Scaling Up: Incorporating HPC into undergraduate CS education courses using Gateways. <em>Gateways 2023</em>, Pittsburgh, PA</li>
+                    <li>To Have and Have Not: Addressing inequities for learners accessing computational science environments. <em>International Conference on Computational Science</em>, London, UK, 2022</li>
+                    <li>Three workflow add-ons to improve machine learning reproducibility in astronomy. <em>Astronomical Data Analysis Software and Systems (ADASS)</em>, Cape Town, South Africa, 2021</li>
+                    <li>From a Legacy System to an Open Source Library: What can we learn about sustaining software tools over decades? <em>SIAM CSE21</em></li>
+                </ul>
+            </div>
+        </section>
 
-				<!-- Three -->
-				<section id="three">
-					<div class="container">
-						<h3>Selected Publications</h3>
-		
-						<div class="features">
-							<article>	
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you are an SOU student interested in my line of research, please contact me at <a href="mailto:boscoeb@sou.edu">boscoeb@sou.edu</a>.</p>
+                <p>You can also find me on <a href="https://github.com/bboscoe">GitHub</a>.</p>
+            </div>
+        </section>
+    </main>
 
-				
-								<div class="inner">
-									<h4>NeurIPS 2024 paper: Learning the Evolution of Physical Structure of Galaxies via Diffusion Models</h4>
-									<p> <a href ="https://arxiv.org/abs/24.11.18440">https://arxiv.org/abs/2411.18440</a></p>
-								</div>
-							</article>
-							<article>
-								<a href="#" class="image"><img src="images/jones_pred.png" alt="model predicitons" /></a>
-								<div class="inner">
-												<h4>Photometric Redshifts for Cosmology: Improving Accuracy and Uncertainty Estimates Using Bayesian Neural Networks</h4>
-												<p>Evan Jones, Tuan Do, Bernie Boscoe, Jack Singal, Yujie Wan, Zooey Nguyen.  <i>The Astrophysical Journal</i>, vol. 964, no. 2, IOP, 2024.
-												doi:10.3847/1538-4357/ad2070.
-													 <a href="https://arxiv.org/abs/2306.13179" target="_blank">arXiv:2306.13179 [astro-ph.CO]</a></p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/USRSE.png" alt="" /></a>
-											<div class="inner">
-												<h4>Navigating the Integration of Machine Learning into Domain Research</h4>
-												<p>Bernie Boscoe, Tuan Do. US-RSE Conference, 2023.<a href="https://doi.org/10.5281/zenodo.10420442"> [Zenodo]</a></p>
-												</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/telescope_pipeline.png" alt="" /></a>
-											<div class="inner">
-												<h4>Elements of effective machine learning datasets in astronomy</h4>
-												<p>Bernie Boscoe, Tuan Do, Evan Jones, Billy Li, Kevin Alfaro and Chris Ma. NeurIPS Machine Learning
-													for the Physical Sciences Workshop, 2022. <a href>arXiv:2211.14401 [astro-ph.IM]</a></p>
-											</div>
-										</article>
-		
-									</div>
-								</div>
-							</section>
-							<!-- Three -->
-							<section id="four">
-								<div class="container">
-									<h3>Recent Talks/Posters</h3>
-	
-									<ul>
-										<li> A Retrieval Augmented Generation Tool for Research Groups. Chandler Campbell, Bernie Boscoe, Tuan Do. Gateways 2024, Bozeman Montana</li>
-										<li>Arrays from the sky: Astronomy and Data Science, Willamette University, Salem, Oregon, 2023</li>
-										<li>Scaling Up: Incorporating HPC into undergraduate CS education courses using Gateways, Gateways 2023, Pittsburgh, PA</li>
-										<li>To Have and Have Not: Addressing inequities for learners accessing computational science environments, International Conference on computational
-											Science, London, UK, 2022 </li>
-										<li>Three workflow add-ons to improve machine learning reproducibility in astronomy, Astronomical Data Analysis
-											Software and Systems (ADASS), Capetown South Africa, 2021</li>
-										<li>From a Legacy System to an Open Source Library: What can we learn about sustaining software tools over decades? SIAM CSE21</li>
-									</ul>
-									<!-- <div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/jones_pred.png" alt="model predicitons" /></a>
-											<div class="inner">
-												<h4>Photometric Redshifts for Cosmology: Improving Accuracy and Uncertainty Estimates Using Bayesian Neural Networks</h4>
-												<p>Evan Jones, Tuan Do, Bernie Boscoe, Jack Singal, Yujie Wan, Zooey Nguyen. The Astrophysical Journal (2024, in preparation)
-													 <a href="https://arxiv.org/abs/2306.13179" target="_blank">arXiv:2306.13179 [astro-ph.CO]</a></p>
-											</div>
-										</article> -->
-									</div>
-								</div>
-							</section>
-
-						<!-- Four -->
-							<section id="five">
-								<div class="container">
-									<h3>Contact</h3>
-									<p>If you are a student interested in my line of research, contact me.</p>
-									<div class="image main" data-position="center">
-										<img src="images/ashland_vines.png" alt="" />
-									</div>
-									<p> </p>
-									
-					
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; bernie boscoe. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <footer>
+        <div class="container">
+            <p>&copy; Bernie Boscoe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
