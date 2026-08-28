@@ -45,8 +45,9 @@ two feel like one integrated site even though they're separate repos/domains.
 
 ## Housekeeping notes (not yet resolved)
 
-- `images/site_I5_2023.jpg` is untracked in this repo — check whether it
-  should be added/committed or was accidental.
+- `images/site_I5_2023.jpg` — now tracked in the repo (a Southern Oregon
+  I-5 corridor landscape photo, taken Oct 2023). Not used anywhere yet;
+  keeping it in the repo for later, no placement decided.
 - `Boscoe2026CV.pdf` and `Evidence of Instructor Qualifications for
   NVIDIA.pdf` are sitting in the repo root (added outside this session).
   Worth double-checking those are meant to be in a **public** repo before
